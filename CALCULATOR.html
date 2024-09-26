@@ -1,0 +1,172 @@
+
+<!-- saved from url=(0059)file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>CALCULATOR</title>
+        <style>
+            .table{
+                background-color: rgb(1,1,53);
+                padding:9px;
+                border-radius: 5px;
+                width:20%;
+            }
+             #one{
+                background-color: white;
+                width:100%;
+                height:30px;
+                font-size: 15px; 
+                text-align: left;
+            }
+            #btn{
+                background-color: rgb(56, 177, 243);
+                border-radius: 5px;
+                width:100%;
+                height:30px;
+
+            }
+            #td{
+                
+                text-align: center;
+                width:100%;
+                height:30px;
+                border-radius: 6px;
+            }
+            #a{
+                text-align: center;
+                width:100%;
+                height:30px;
+                border-radius: 6px;
+                background-color: yellow; 
+                cursor:clicked;
+                transition: background-color 0.3s, transform 0.3s;
+               
+            } 
+            #b{
+                text-align: center;
+                width:100%;
+                height:30px;
+                border-radius: 6px;
+                background-color: yellow;
+                transition: background-color 0.3s, transform 0.3s;
+                
+                
+            }
+            #c{
+                text-align: center;
+                width: 100%;
+                height:30px;
+                border-radius: 6px;
+                background-color: yellow;
+                transition: background-color 0.3s, transform 0.3s;   
+        
+            }
+            
+            #f{
+                width: 100%;
+                height:30px;
+                border-radius: 6px;
+                transition: background-color 0.3s, transform 0.3s;
+                background-color: yellow;
+                text-align: center;
+        
+            }
+            #d{
+                width: 100%;
+                height:30px;
+                border-radius: 6px;
+                background-color: rgb(56, 177, 243);
+                text-align: center;  
+                transition: background-color 0.3s, transform 0.3s; 
+            }
+            #ac{
+                text-decoration: none;
+            }
+            #row1{
+                text-decoration: none;
+            }
+            #row2{
+                text-decoration: none;
+            }
+            #row3{
+                text-decoration: none;
+            }
+            #row4{
+                text-decoration: none;
+            }
+            #equals{
+                text-decoration: none;
+            }
+            #btn:focus{
+                background-color: white;
+                outline:none;
+                transform: scale(0.98);  
+            }
+            
+               #a:focus{
+                background-color: white;
+                outline:none;
+                transform: scale(0.98);
+               }
+               #b:focus{
+                background-color: white;
+                outline:none;
+                transform: scale(0.98);
+               }
+               #c:focus{
+                background-color: white;
+                outline:none;
+                transform: scale(0.98);
+               }
+               #d:focus{
+                background-color: white;
+                outline:none;
+               }
+               #f:focus{
+                background-color: white;
+                outline:none;
+               }
+               #d:focus{
+                background-color: white;
+                outline:none;
+               }
+
+
+        </style>
+    </head>
+    <body>
+        <table class="table">
+            <tbody><tr>
+                <td colspan="3"><button id="one">2</button></td>
+                    <td><button id="btn"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="ac">AC</a></button></td>
+                    
+            </tr>
+            
+            <tr class="two">
+                <td><button id="a"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row1">1</a></button></td>
+                <td><button id="a"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row1">2</a></button></td>
+                <td><button id="a"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row1">3</a></button></td>
+                <td><button id="a"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row1">+</a></button></td>
+            </tr>
+            <tr class="three">
+                <td><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2"><button id="b">4</button></a></td>
+                <td><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2"><button id="b">5</button></a></td>
+                <td><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2"><button id="b">6</button></a></td>
+                <td><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2"></a><button id="b"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2"></a><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row2">-</a></button></td>
+            </tr>
+            <tr class="four">
+                <td><button id="c"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row3">7</a></button></td>
+                <td><button id="c"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row3">8</a></button></td>
+                <td><button id="c"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row3">9</a></button></td>
+                <td><button id="c"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row3">*</a></button></td>
+            </tr>
+            <tr class="five">
+                <td><button id="f"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row4">.</a></button></td>
+                <td><button id="f"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row4">0</a></button></td>
+                <td><button id="d"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="equals">=</a></button></td>
+                <td><button id="f"><a href="file:///C:/Users/jahna/OneDrive/Desktop/VS/calculator.html#" id="row4">/</a></button></td>
+            </tr>
+           
+
+        </tbody></table>
+    
+    
+</body></html>
